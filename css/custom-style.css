@@ -1,0 +1,116 @@
+
+.msgBalloon{
+	background-color: #FFFFE0;
+	border-color: #E6DB55;
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 5px 15px 2px; 
+	margin-top:15px;
+	text-align:center;
+	font-weight: bold;
+}
+
+.navigation span{
+	padding-right:5px;
+}
+
+.navigation span input{
+	background: none repeat scroll 0 0 #E4E4E4;
+	border-radius:2px;
+	padding:5px;
+}
+
+.super-nav{
+	margin:20px 0;
+}
+
+.import-form{
+	margin:20px;
+}
+
+.required{
+	color:red;
+}
+
+.emaillists{
+	width:100%;
+	border:1px solid #BBBBBB;
+	margin:20px -8px;
+}
+.emaillists td {
+/*	width:20%;*/
+}
+
+.emaillists td.small{
+	width:10%;
+}
+
+.emaillists td.tiny{
+	width:5%;
+}
+
+.emaillists tr.header{
+	background: -moz-linear-gradient(center top , #E4E4E4 0%, #BBBBBB 100%) repeat scroll 0 0 transparent;
+	color:#000;
+}
+
+.emaillists tr.content td{
+/*	background: #EDECEC;
+	border-bottom: 1px solid #BBBBBB;*/
+}
+
+.export input[type="submit"]{
+	border:none;
+	color:#94BAF9;
+	text-decoration:underline;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+.emaillists tr.content td a,img{
+	cursor:pointer;
+}
+
+.emaillists tr.content td a:hover{
+        cursor:pointer;
+	text-decoration:underline;
+}
+
+.smacklink:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+/* Added by SAM*/
+
+/* tables style*/
+.sam-add-content td {  width: 385px; }
+.sam-add-content select { width: 185px; }
+.sam-add-content th { background-color: #F1F1F1; padding:5px; }
+.sam-add-content { border-spacing: 0; }
+.sam-add-content thead { border-color: #DFDFDF; }
+.sam-add-content tbody tr { line-height: 2.4; }
+
+/*Sub menu */
+.top-navigation-wrapper { height: 25px; margin-left:25px; }
+.Navigation-menu-bar .navigation-menu { float: left; }
+.navigation-menu-link {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px 7px 0 0;
+    padding: 5px;
+    text-decoration: none;
+}
+.navigation-menu-link.navigation-menu-link-active { background-color: #F3F3F3; border-bottom:none; padding-bottom:6px; }
+#listindex input { margin-left: -5px; }
+#main-page > div#content-page {
+    border: 1px solid #BBBBBB;
+    margin-top: -4px;
+    margin-left: 5px;
+    padding: 0 10px 10px 25px;
+    width: 95%;
+    border-radius:3px;
+}
+.navigation { margin-left: -8px; }
+.sam-camp-cont { margin-left: -6px; }
